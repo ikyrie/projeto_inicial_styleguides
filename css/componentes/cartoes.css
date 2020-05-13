@@ -1,0 +1,47 @@
+.cartao {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    background-color: var(--branco);
+
+    overflow: hidden;
+
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+}
+
+.cartao--produto {
+    text-align: left;
+
+    padding-left: 50%;
+
+    position: relative;
+
+    flex-direction: row;
+
+    height: 200px;
+}
+
+.cartao--imagem {
+    position: absolute;
+    top: 50%;
+    left: -30%;
+
+    transform: translatey(-50%);
+
+    width: 300px;
+}
+
+.cartao--titulo {
+    margin-bottom: .5rem;
+}
+
+.cartao--preco {
+    margin-bottom: 1.75rem;
+}

@@ -5,22 +5,25 @@
     --preto: #202020;
     --preto-transparente: #0000000F;
 
-    --familia-titulos: 'Elsie Swash Caps', cursive;
+    --familia-titulo: 'Elsie Swash Caps', cursive;
     --familia-corpo: 'Montserrat', sans-serif;
 
-    --peso-titulos: 900;
-    --peso-botoes: 700;
+    --peso-titulo: 900;
+    --peso-botao: 700;
 
-    --tamanho-h1: 82px;
-    --tamanho-h2: 42px;
-    --tamanho-h3: 32px;
+    --tamanho-titulo-grande: 82px;
+    --tamanho-titulo-medio: 42px;
+    --tamanho-titulo: 32px;
     --tamanho-subtitulo: 22px;
     --tamanho-corpo: 16px;
 }
 
 body {
+    color: var(--preto);
+
     font-family: var(--familia-corpo);
     font-size: var(--tamanho-corpo);
+    line-height: normal;
 
     background: url(../../img/fundo.png), url(../../img/pattern-fundo.svg) top center;
     background-size: 100%;
@@ -29,4 +32,8 @@ body {
 .container {
     padding-right: 16px;
     padding-left: 16px;
+}
+
+.fundo-destaque {
+    background-color: var(--branco);
 }
