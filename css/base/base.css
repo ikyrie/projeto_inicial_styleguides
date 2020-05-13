@@ -1,0 +1,32 @@
+:root {
+    --amarelo: #FFCB47;
+    --amarelo-transparente: #FFCB474D;
+    --branco: #FFFFFF;
+    --preto: #202020;
+    --preto-transparente: #0000000F;
+
+    --familia-titulos: 'Elsie Swash Caps', cursive;
+    --familia-corpo: 'Montserrat', sans-serif;
+
+    --peso-titulos: 900;
+    --peso-botoes: 700;
+
+    --tamanho-h1: 82px;
+    --tamanho-h2: 42px;
+    --tamanho-h3: 32px;
+    --tamanho-subtitulo: 22px;
+    --tamanho-corpo: 16px;
+}
+
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+
+    background: url(../../img/fundo.png), url(../../img/pattern-fundo.svg) top center;
+    background-size: 100%;
+}
+
+.container {
+    padding-right: 16px;
+    padding-left: 16px;
+}

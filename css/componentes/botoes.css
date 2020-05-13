@@ -1,0 +1,31 @@
+.botao {
+    box-sizing: border-box;
+
+    color: var(--branco);
+    font-weight: var(--peso-botoes);
+    text-align: center;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    padding-top: 1.75rem;
+    padding-right: 1.375rem;
+    padding-bottom: 1.75rem;
+    padding-left: 1.375rem;
+    
+    background-color: var(--amarelo);
+
+    box-shadow: 10px 10px 30px var(--amarelo-transparente);
+
+    min-width: 200px;
+}
+
+.botao--alternativo {
+    color: var(--amarelo);
+    
+    border: 1px solid var(--amarelo);
+
+    box-shadow: none;
+
+    background-color: unset;
+}
