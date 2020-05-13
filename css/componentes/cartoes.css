@@ -28,14 +28,24 @@
     height: 200px;
 }
 
+
+/* Na explicação isso aqui vai ter que mudar. "Funciona" para todas as imagens que recebi de produtos */
 .cartao--imagem {
     position: absolute;
     top: 50%;
     left: -30%;
 
     transform: translatey(-50%);
+    /* Esse z-index pode ser completamente removido assim que a explicação fizer sentido. Caso contrário não vejo o porque de remover */
+    z-index: 1;
 
     width: 300px;
+}
+
+/* Isso aqui pode ser removido depois de pensar um pouco melhor na explicação das imagens */
+.cartao--conteudo {
+    position: relative;
+    z-index: 2;
 }
 
 .cartao--titulo {
@@ -44,4 +54,10 @@
 
 .cartao--preco {
     margin-bottom: 1.75rem;
+}
+
+
+/* Quero ver quem vai ser a primeira pessoa a dizer que isso aqui é gambiarra */
+.cartao--comprar {
+    word-spacing: 1.75rem;
 }
