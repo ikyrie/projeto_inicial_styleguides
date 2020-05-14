@@ -2,6 +2,7 @@
     --amarelo: #FFCB47;
     --amarelo-transparente: #FFCB474D;
     --branco: #FFFFFF;
+    --cinza: #909090;
     --preto: #202020;
     --preto-transparente: #0000000F;
 
@@ -10,6 +11,7 @@
 
     --peso-titulo: 900;
     --peso-botao: 700;
+    --peso-subtitulo: 700;
 
     --tamanho-titulo-grande: 5.125rem;
     --tamanho-titulo-medio: 2.625rem;
@@ -72,7 +74,7 @@ img {
 }
 
 body {
-    color: var(--preto);
+    color: var(--cinza);
 
     font-family: var(--familia-corpo);
     font-size: var(--tamanho-corpo);
@@ -92,6 +94,7 @@ body {
 }
 
 .titulo {
+    color: var(--preto);
     font-family: var(--familia-titulo);
     font-size: var(--tamanho-titulo);
     font-weight: var(--peso-titulo);
@@ -102,6 +105,7 @@ body {
 }
 
 .subtitulo--destaque {
+    color: var(--preto);
     font-weight: var(--peso-subtitulo);
 }
 
