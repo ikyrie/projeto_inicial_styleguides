@@ -52,12 +52,14 @@
     margin-bottom: .5rem;
 }
 
+.cartao__subtitulo {
+    margin-bottom: .75rem;
+}
+
 .cartao__preco {
     margin-bottom: 1.75rem;
 }
 
-
-/* Quero ver quem vai ser a primeira pessoa a dizer que isso aqui é gambiarra */
 .cartao__icone {
     margin-left: 1.75rem;
 }

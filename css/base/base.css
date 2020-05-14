@@ -11,11 +11,11 @@
     --peso-titulo: 900;
     --peso-botao: 700;
 
-    --tamanho-titulo-grande: 82px;
-    --tamanho-titulo-medio: 42px;
-    --tamanho-titulo: 32px;
-    --tamanho-subtitulo: 22px;
-    --tamanho-corpo: 16px;
+    --tamanho-titulo-grande: 5.125rem;
+    --tamanho-titulo-medio: 2.625rem;
+    --tamanho-titulo: 2rem;
+    --tamanho-subtitulo: 1.375rem;
+    --tamanho-corpo: 1rem;
 }
 
 html, body, div, span, applet, object, iframe,
