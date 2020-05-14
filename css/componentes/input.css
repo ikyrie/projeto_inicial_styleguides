@@ -1,0 +1,54 @@
+.input {
+    display: block;
+
+    position: relative;
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding-top: 1.75rem;
+    padding-right: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding-left: 1.75rem;
+
+    margin-bottom: 1rem;
+
+    background-color: var(--branco);
+
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+}
+
+.input--com-icone {
+    padding-left: 4.25rem;
+}
+
+.input--com-icone::before {
+    content: '';
+
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    left: 1.75rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    transform: translatey(-50%);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.input__icone--email::before {
+    background-image: url(../../img/icon/mail.svg);
+}
+
+.input__container {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+}
