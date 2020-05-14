@@ -33,7 +33,7 @@
 .cartao__imagem {
     position: absolute;
     top: 50%;
-    left: -30%;
+    left: -8rem;
 
     transform: translatey(-50%);
     /* Esse z-index pode ser completamente removido assim que a explicação fizer sentido. Caso contrário não vejo o porque de remover */
@@ -58,46 +58,6 @@
 
 
 /* Quero ver quem vai ser a primeira pessoa a dizer que isso aqui é gambiarra */
-.cartao__comprar {
-    word-spacing: 1.75rem;
-}
-
-
-.cartao-de-video {
-    margin-bottom: 2rem;
-}
-
-.cartao-de-video__video {
-    position: relative;
-
-    width: 100%;
-
-    margin-bottom: .5rem;
-}
-
-.cartao-de-video__video::before {
-    content: '';
-
-    position: absolute;
-    left: 50%;
-    top:50%;
-
-    transform: translate(-50%, -50%);
-
-    display: block;
-
-    width: 78px;
-    height: 78px;
-
-    border-radius: 50%;
-
-    background-color: var(--branco);
-    background-image: url(../../img/icon/play.svg);
-    background-repeat: no-repeat;
-    background-size: 28px 36px;
-    background-position: center left 55%;
-}
-
-.cartao-de-video__titulo {
-    margin-bottom: .25rem;
+.cartao__icone {
+    margin-left: 1.75rem;
 }
