@@ -11,12 +11,13 @@
 
     --peso-titulo: 900;
     --peso-botao: 700;
-    --peso-subtitulo: 700;
+    --peso-destaque: 700;
 
     --tamanho-titulo-grande: 5.125rem;
     --tamanho-titulo-medio: 2.625rem;
     --tamanho-titulo: 2rem;
     --tamanho-subtitulo: 1.375rem;
+    --tamanho-destaque: 1.375rem;
     --tamanho-corpo: 1rem;
 }
 
@@ -85,8 +86,8 @@ body {
 }
 
 .container {
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .fundo-destaque {
@@ -102,11 +103,6 @@ body {
 
 .subtitulo {
     font-size: var(--tamanho-subtitulo);
-}
-
-.subtitulo--destaque {
-    color: var(--preto);
-    font-weight: var(--peso-subtitulo);
 }
 
 .texto {

@@ -10,8 +10,8 @@
 
     overflow: hidden;
 
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     box-shadow: 10px 10px 30px var(--preto-transparente);
 }
@@ -19,13 +19,15 @@
 .cartao--produto {
     text-align: left;
 
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
     padding-left: 50%;
 
     position: relative;
 
     flex-direction: row;
 
-    height: 200px;
+    height: 12.5rem;
 }
 
 
@@ -39,7 +41,7 @@
     /* Esse z-index pode ser completamente removido assim que a explicação fizer sentido. Caso contrário não vejo o porque de remover */
     z-index: 1;
 
-    width: 300px;
+    width: 18.75rem;
 }
 
 /* Isso aqui pode ser removido depois de pensar um pouco melhor na explicação das imagens */
@@ -57,7 +59,7 @@
 }
 
 .cartao__preco {
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.5rem;
 }
 
 .cartao__icone {

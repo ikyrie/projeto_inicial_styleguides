@@ -30,6 +30,10 @@
 }
 
 .footer__unidade-titulo {
+    color: var(--preto);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+
     display: block;
 
     margin-bottom: .5rem;
