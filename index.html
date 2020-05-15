@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Verde | Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base/base.css">
-    <link rel="stylesheet" href="css/base/tipografia.css">
-    <link rel="stylesheet" href="css/brands.min.css">
-    <link rel="stylesheet" href="css/solid.min.css">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/base/awesome-fonts.css">
+    <link rel="stylesheet" href="css/componentes/header.css">
     <link rel="stylesheet" href="css/componentes/botoes.css">
     <link rel="stylesheet" href="css/componentes/cartoes.css">
+    <link rel="stylesheet" href="css/componentes/video.css">
+    <link rel="stylesheet" href="css/componentes/item.css">
+    <link rel="stylesheet" href="css/componentes/input.css">
+    <link rel="stylesheet" href="css/componentes/footer.css">
 </head>
 <body>
+    <header class="header container"><img src="img/logo.svg" alt="logo" class="header__logo"><img src="img/icon/cart-header.svg" alt="coiso" class="header__carrinho"></header>
     <main>
         <section class="container">
             <p class="botao">Assinar newsletter</p>
@@ -24,7 +26,7 @@
                 <div class="cartao__conteudo">
                     <h2 class="titulo cartao__titulo">Ajuga reptans</h2>
                     <p class="cartao__preco">R$20,00</p>
-                    <a href="#" class="link cartao__comprar">Comprar <span class="fas fa-arrow-right"></span></a>
+                    <a href="#" class="botao--simples">Comprar <span class="fas fa-arrow-right cartao__icone"></span></a>
                 </div>
             </article>
             <article class="cartao">
@@ -36,7 +38,7 @@
                 <div class="cartao-de-video__video">
                     <img src="https://picsum.photos/278/252" alt="Phuk">
                 </div>
-                <p class="subtitulo cartao-de-video__titulo">Vídeo XYZ</p>
+                <p class="subtitulo subtitulo--destaque cartao-de-video__titulo">Vídeo XYZ</p>
                 <p>Publicado em março de 2019</p>
             </article>
         </section>
@@ -45,6 +47,49 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet cumque alias magnam commodi fugiat fugit debitis doloribus repellendus hic corrupti velit perspiciatis ea, obcaecati illum minima. Voluptate, quibusdam odit.
             </p>
         </section>
+        <section class="container">
+            <article class="cartao">
+                <p class="subtitulo cartao__subtitulo">Como conseguir</p>
+                <h3 class="titulo cartao__titulo">minha planta</h3>
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--carrinho"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--caminhao"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                </ul>
+            </article>
+            <span class="input input--com-icone input__icone--email">
+                <input type="email" placeholder="Insira seu e-mail" class="input__container">
+            </span>
+        </section>
     </main>
+    <footer class="footer container">
+        <img src="img/logo.svg" alt="loguinho" class="footer__logo">
+        <ul class="footer__social">
+            <li class="footer__social-media fab fa-facebook-square"></li>
+            <li class="footer__social-media fab fa-twitter"></li>
+            <li class="footer__social-media fab fa-instagram"></li>
+        </ul>
+        <address class="footer__unidade">
+            <span class="subtitulo subtitulo--destaque footer__unidade-titulo">Rio de Janeiro</span>
+            <span class="texto">Rua Siqueira Campos, 171, 303</br>
+                Copacabana</br>
+                Telefone: (21) 99876-0099</span>
+        </address>
+        <address class="footer__unidade">
+            <span class="subtitulo subtitulo--destaque footer__unidade-titulo">São Paulo</span>
+            <span class="texto">Rua Anita Garibaldi, 33, 13</br>
+                Sé</br>
+                Telefone: (11) 99875-2201</span>
+        </address>
+    </footer>
 </body>
 </html>

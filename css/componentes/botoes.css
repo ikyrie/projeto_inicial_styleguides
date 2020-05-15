@@ -29,3 +29,7 @@
 
     background-color: unset;
 }
+
+.botao--simples {
+    color: var(--amarelo);
+}
