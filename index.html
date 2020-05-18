@@ -13,44 +13,41 @@
     <link rel="stylesheet" href="css/componentes/video.css">
     <link rel="stylesheet" href="css/componentes/item.css">
     <link rel="stylesheet" href="css/componentes/input.css">
+    <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/como-conseguir.css">
+    <link rel="stylesheet" href="css/ofertas.css">
+    <link rel="stylesheet" href="css/depoimentos.css">
+    <link rel="stylesheet" href="css/videos.css">
     <link rel="stylesheet" href="css/componentes/footer.css">
 </head>
 <body>
-    <header class="header container"><img src="img/logo.svg" alt="logo" class="header__logo"><img src="img/icon/cart-header.svg" alt="coiso" class="header__carrinho"></header>
+    <header class="header container">
+        <img src="img/logo.svg" alt="logo" class="header__logo">
+        <img src="img/icon/cart-header.svg" alt="coiso" class="header__carrinho">
+    </header>
     <main>
-        <section class="container">
-            <p class="botao">Assinar newsletter</p>
-            <p class="botao botao--alternativo">Um botão qualquer</p>
-            <article class="cartao cartao--produto">
-                <img src="img/produto-05.png" alt="phuk" class="cartao__imagem">
-                <div class="cartao__conteudo">
-                    <h2 class="titulo cartao__titulo">Ajuga reptans</h2>
-                    <p class="cartao__preco">R$20,00</p>
-                    <a href="#" class="botao--simples">Comprar <span class="fas fa-arrow-right cartao__icone"></span></a>
-                </div>
-            </article>
-            <article class="cartao">
-                <h4 class="subtitulo">Como conseguir</h4>
-                <h3 class="titulo cartao__titulo">minha planta</h3>
-                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. A nemo rerum eaque odio possimus unde accusamus asperiores quibusdam ratione nobis. Blanditiis possimus excepturi rem voluptate, temporibus tempore saepe cumque voluptas!</p>
-            </article>
-            <article class="cartao-de-video container">
-                <div class="cartao-de-video__video">
-                    <img src="https://picsum.photos/278/252" alt="Phuk">
-                </div>
-                <p class="subtitulo subtitulo--destaque cartao-de-video__titulo">Vídeo XYZ</p>
-                <p>Publicado em março de 2019</p>
-            </article>
-        </section>
-        <section class="fundo-destaque container">
-            <p class="texto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet cumque alias magnam commodi fugiat fugit debitis doloribus repellendus hic corrupti velit perspiciatis ea, obcaecati illum minima. Voluptate, quibusdam odit.
+        <section class="chamada container">
+            <h2 class="subtitulo">
+                Sua casa com as
+                <span class="titulo chamada__titulo">melhores plantas</span>
+            </h2>
+            <p class="chamada__texto texto">
+                Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.
             </p>
+            <img src="img/planta-chamada.png" alt="Planta demonstrativa" class="chamada__imagem">
+            <form action="#">
+                <span class="input input--com-icone input__icone--email">
+                    <input type="text" placeholder="Insira seu e-mail" name="email" class="input__container texto">
+                </span>
+                <button class="botao">Assinar newsletter</button>
+            </form>
         </section>
-        <section class="container">
+        <section class="como-conseguir container">
             <article class="cartao">
-                <p class="subtitulo cartao__subtitulo">Como conseguir</p>
-                <h3 class="titulo cartao__titulo">minha planta</h3>
+                <h3 class="subtitulo">
+                    Como conseguir
+                    <span class="como-conseguir__titulo titulo">minha planta</span>
+                </h3>
                 <ul class="lista-item">
                     <li class="item">
                         <span class="item__icone item__icone--cursor"></span>
@@ -66,9 +63,103 @@
                     </li>
                 </ul>
             </article>
-            <span class="input input--com-icone input__icone--email">
-                <input type="email" placeholder="Insira seu e-mail" class="input__container">
-            </span>
+        </section>
+        <section class="ofertas container">
+            <h2 class="subtitulo">
+                Conheça nossas
+                <span class="ofertas__titulo titulo">ofertas</span>
+            </h2>
+            <ul>
+                <li class="cartao cartao--produto">
+                    <img src="img/produto-01.png" alt="Foto do produto" class="cartao__imagem">
+                    <div class="cartao__conteudo">
+                        <h3 class="cartao__titulo titulo">Ajuga reptans</h3>
+                        <p class="cartao__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                    </div>
+                </li>
+                <li class="cartao cartao--produto">
+                    <img src="img/produto-02.png" alt="Foto do produto" class="cartao__imagem">
+                    <div class="cartao__conteudo">
+                        <h3 class="cartao__titulo titulo">Cordyline fruticosa</h3>
+                        <p class="cartao__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                    </div>
+                </li>
+                <li class="cartao cartao--produto">
+                    <img src="img/produto-03.png" alt="Foto do produto" class="cartao__imagem">
+                    <div class="cartao__conteudo">
+                        <h3 class="cartao__titulo titulo">Crassula ovata</h3>
+                        <p class="cartao__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                    </div>
+                </li>
+                <li class="cartao cartao--produto">
+                    <img src="img/produto-04.png" alt="Foto do produto" class="cartao__imagem">
+                    <div class="cartao__conteudo">
+                        <h3 class="cartao__titulo titulo">Cyperus rotundus</h3>
+                        <p class="cartao__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                    </div>
+                </li>
+                <li class="cartao cartao--produto">
+                    <img src="img/produto-05.png" alt="Foto do produto" class="cartao__imagem">
+                    <div class="cartao__conteudo">
+                        <h3 class="cartao__titulo titulo">Delairea odorata</h3>
+                        <p class="cartao__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                    </div>
+                </li>
+                <li class="cartao cartao--produto">
+                    <img src="img/produto-06.png" alt="Foto do produto" class="cartao__imagem">
+                    <div class="cartao__conteudo">
+                        <h3 class="cartao__titulo titulo">Datura metel</h3>
+                        <p class="cartao__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="depoimentos container">
+            <h2 class="depoimentos__titulo titulo">
+                Não acredite em nós veja o que os clientes tem a dizer
+            </h2>
+            <p class="depoimentos__texto texto">
+                “Nullam a orci vitae orci fringilla pulvinar sit amet quis felis. Quisque vel ornare arcu. Fusce urna quam, tempus vitae vehicula et, efficitur non sem. Morbi tincidunt congue lorem eu tempor. Nulla bibendum ligula lorem, vel sollicitudin nibh scelerisque non. Proin ut nisi congue, sodales tellus at, consectetur tellus. Praesent ac elit quis purus congue bibendum. Etiam nec massa ac enim vehicula maximus. Pellentesque semper fermentum maximus. Integer dignissim libero felis, id tempor purus viverra non. Quisque sodales non lacus ut tincidunt. Cras in venenatis leo.”
+            </p>
+            <article class="depoimentos__depoimento">
+                <div>
+                    <h3 class="depoimentos__pessoa">Juliana Ferraz</h3>
+                    <p class="texto">Cliente desde 2018</p>
+                </div>
+                <div>
+                    <button class="depoimentos__botao depoimentos__anterior"></button>
+                    <button class="depoimentos__botao depoimentos__proximo"></button>
+                </div>
+            </article>
+        </section>
+        <section class="videos container">
+            <h2 class="subtitulo">
+                Veja aqui os nossos
+                <span class="videos__titulo titulo">vídeos</span>
+            </h2>
+            <ul class="videos__lista">
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <p class="cartao-de-video__titulo">Vídeo XYZ</p>
+                    <p>Publicado em março de 2019</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <p class="cartao-de-video__titulo">Vídeo XYZ</p>
+                    <p>Publicado em março de 2019</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do vídeo"></div>
+                    <p class="cartao-de-video__titulo">Vídeo XYZ</p>
+                    <p>Publicado em março de 2019</p>
+                </li>
+            </ul>
         </section>
     </main>
     <footer class="footer container">

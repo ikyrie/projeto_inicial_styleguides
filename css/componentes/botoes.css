@@ -2,10 +2,12 @@
     box-sizing: border-box;
 
     color: var(--branco);
+    font-family: inherit;
     font-weight: var(--peso-botao);
     text-align: center;
 
-    margin-top: 1rem;
+    width: 100%;
+
     margin-bottom: 1rem;
 
     padding-top: 1.75rem;
@@ -16,6 +18,8 @@
     background-color: var(--amarelo);
 
     box-shadow: 10px 10px 30px var(--amarelo-transparente);
+
+    border: none;
 
     min-width: 200px;
 }

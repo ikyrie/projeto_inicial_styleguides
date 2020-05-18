@@ -1,0 +1,28 @@
+.chamada {
+    padding-top: 2.5rem;
+
+    margin-bottom: 2.5rem;
+
+    background-image: url(../img/splash-chamada.svg);
+    background-position: top -4rem right -11.2rem;
+    background-repeat: no-repeat;
+}
+
+.chamada__titulo {
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.chamada__texto {
+    width: 12.5rem;
+
+    margin-bottom: 1.55rem;
+}
+
+.chamada__imagem {
+    position: absolute;
+    top: 7.75rem;
+    right: 0;
+}
