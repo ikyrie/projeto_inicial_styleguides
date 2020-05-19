@@ -1,0 +1,58 @@
+.produto {
+    margin-bottom: 1rem;
+
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding-left: 50%;
+
+    position: relative;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+    background-color: var(--branco);
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+
+    height: 12.5rem;
+}
+
+
+/* Na explicação isso aqui vai ter que mudar. "Funciona" para todas as imagens que recebi de produtos */
+.produto__imagem {
+    position: absolute;
+    top: 50%;
+    left: -8rem;
+
+    transform: translatey(-50%);
+    /* Esse z-index pode ser completamente removido assim que a explicação fizer sentido. Caso contrário não vejo o porque de remover */
+    z-index: 1;
+
+    width: 18.75rem;
+}
+
+/* Isso aqui pode ser removido depois de pensar um pouco melhor na explicação das imagens */
+.produto__conteudo {
+    position: relative;
+    z-index: 2;
+}
+
+.produto__titulo {
+    margin-bottom: .5rem;
+}
+
+.produto__subtitulo {
+    margin-bottom: .75rem;
+}
+
+.produto__preco {
+    margin-bottom: 1.5rem;
+}
+
+.produto__icone {
+    margin-left: 1.75rem;
+}
