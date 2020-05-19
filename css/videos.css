@@ -2,13 +2,6 @@
     text-align: center;
 }
 
-.videos__titulo {
-    display: block;
-
-    margin-top: .75rem;
-    margin-bottom: .75rem;
-}
-
 .videos__lista {
     text-align: left;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/componentes/header.css">
     <link rel="stylesheet" href="css/componentes/botoes.css">
     <link rel="stylesheet" href="css/componentes/cartoes.css">
+    <link rel="stylesheet" href="css/componentes/produto.css">
     <link rel="stylesheet" href="css/componentes/video.css">
     <link rel="stylesheet" href="css/componentes/item.css">
     <link rel="stylesheet" href="css/componentes/input.css">
@@ -27,27 +28,28 @@
     </header>
     <main>
         <section class="chamada container">
-            <h2 class="subtitulo">
+            <h2 class="titulo">
                 Sua casa com as
-                <span class="titulo chamada__titulo">melhores plantas</span>
+                <span class="titulo--destaque">melhores plantas</span>
             </h2>
             <p class="chamada__texto texto">
                 Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.
             </p>
             <img src="img/planta-chamada.png" alt="Planta demonstrativa" class="chamada__imagem">
             <form action="#">
+                <label class="input-label" for="email">Insira seu e-mail</label>
                 <span class="input input--com-icone input__icone--email">
-                    <input type="text" placeholder="Insira seu e-mail" name="email" class="input__container texto">
+                    <input type="text" placeholder="Insira seu e-mail" name="email" id="email" class="input__container texto">
                 </span>
                 <button class="botao">Assinar newsletter</button>
             </form>
         </section>
         <section class="como-conseguir container">
             <article class="cartao">
-                <h3 class="subtitulo">
+                <h2 class="titulo alinhamento--meio">
                     Como conseguir
-                    <span class="como-conseguir__titulo titulo">minha planta</span>
-                </h3>
+                    <span class="titulo--destaque">minha planta</span>
+                </h2>
                 <ul class="lista-item">
                     <li class="item">
                         <span class="item__icone item__icone--cursor"></span>
@@ -65,83 +67,65 @@
             </article>
         </section>
         <section class="ofertas container">
-            <h2 class="subtitulo">
+            <h2 class="titulo alinhamento--meio">
                 Conheça nossas
-                <span class="ofertas__titulo titulo">ofertas</span>
+                <span class="titulo--destaque">ofertas</span>
             </h2>
             <ul>
-                <li class="cartao cartao--produto">
-                    <img src="img/produto-01.png" alt="Foto do produto" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <h3 class="cartao__titulo titulo">Ajuga reptans</h3>
-                        <p class="cartao__preco">R$ 20,00</p>
-                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                <li class="produto">
+                    <img src="img/produto-01.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right produto__icone"></span></a>
                     </div>
                 </li>
-                <li class="cartao cartao--produto">
-                    <img src="img/produto-02.png" alt="Foto do produto" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <h3 class="cartao__titulo titulo">Cordyline fruticosa</h3>
-                        <p class="cartao__preco">R$ 20,00</p>
-                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                <li class="produto">
+                    <img src="img/produto-02.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Cordyline fruticosa</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right produto__icone"></span></a>
                     </div>
                 </li>
-                <li class="cartao cartao--produto">
-                    <img src="img/produto-03.png" alt="Foto do produto" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <h3 class="cartao__titulo titulo">Crassula ovata</h3>
-                        <p class="cartao__preco">R$ 20,00</p>
-                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                <li class="produto">
+                    <img src="img/produto-03.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Crassula ovata</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right produto__icone"></span></a>
                     </div>
                 </li>
-                <li class="cartao cartao--produto">
-                    <img src="img/produto-04.png" alt="Foto do produto" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <h3 class="cartao__titulo titulo">Cyperus rotundus</h3>
-                        <p class="cartao__preco">R$ 20,00</p>
-                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                <li class="produto">
+                    <img src="img/produto-04.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Cyperus rotundus</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right produto__icone"></span></a>
                     </div>
                 </li>
-                <li class="cartao cartao--produto">
-                    <img src="img/produto-05.png" alt="Foto do produto" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <h3 class="cartao__titulo titulo">Delairea odorata</h3>
-                        <p class="cartao__preco">R$ 20,00</p>
-                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                <li class="produto">
+                    <img src="img/produto-05.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Delairea odorata</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right produto__icone"></span></a>
                     </div>
                 </li>
-                <li class="cartao cartao--produto">
-                    <img src="img/produto-06.png" alt="Foto do produto" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <h3 class="cartao__titulo titulo">Datura metel</h3>
-                        <p class="cartao__preco">R$ 20,00</p>
-                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right cartao__icone"></span></a>
+                <li class="produto">
+                    <img src="img/produto-06.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo--destaque">Datura metel</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="#" class="botao--simples">Comprar<span class="fas fa-arrow-right produto__icone"></span></a>
                     </div>
                 </li>
             </ul>
         </section>
-        <section class="depoimentos container">
-            <h2 class="depoimentos__titulo titulo">
-                Não acredite em nós veja o que os clientes tem a dizer
-            </h2>
-            <p class="depoimentos__texto texto">
-                “Nullam a orci vitae orci fringilla pulvinar sit amet quis felis. Quisque vel ornare arcu. Fusce urna quam, tempus vitae vehicula et, efficitur non sem. Morbi tincidunt congue lorem eu tempor. Nulla bibendum ligula lorem, vel sollicitudin nibh scelerisque non. Proin ut nisi congue, sodales tellus at, consectetur tellus. Praesent ac elit quis purus congue bibendum. Etiam nec massa ac enim vehicula maximus. Pellentesque semper fermentum maximus. Integer dignissim libero felis, id tempor purus viverra non. Quisque sodales non lacus ut tincidunt. Cras in venenatis leo.”
-            </p>
-            <article class="depoimentos__depoimento">
-                <div>
-                    <h3 class="depoimentos__pessoa">Juliana Ferraz</h3>
-                    <p class="texto">Cliente desde 2018</p>
-                </div>
-                <div>
-                    <button class="depoimentos__botao depoimentos__anterior"></button>
-                    <button class="depoimentos__botao depoimentos__proximo"></button>
-                </div>
-            </article>
-        </section>
         <section class="videos container">
-            <h2 class="subtitulo">
+            <h2 class="titulo">
                 Veja aqui os nossos
-                <span class="videos__titulo titulo">vídeos</span>
+                <span class="titulo--destaque">vídeos</span>
             </h2>
             <ul class="videos__lista">
                 <li class="cartao-de-video container">

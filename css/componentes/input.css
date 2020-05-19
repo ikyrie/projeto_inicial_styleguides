@@ -19,6 +19,10 @@
     box-shadow: 10px 10px 30px var(--preto-transparente);
 }
 
+.input-label {
+    display: none;
+}
+
 .input--com-icone {
     padding-left: 4.25rem;
 }
