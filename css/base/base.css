@@ -1,6 +1,17 @@
 @import url('_variaveis.css');
 @import url('_reset.css');
 
+body {
+    color: var(--cinza);
+
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    line-height: normal;
+
+    background: url(../../img/fundo.png), url(../../img/pattern-fundo.svg) top center;
+    background-size: 100%;
+}
+
 .container {
     padding-right: 1rem;
     padding-left: 1rem;

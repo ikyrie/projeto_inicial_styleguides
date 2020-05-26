@@ -1,8 +1,8 @@
 .produto {
     margin-bottom: 1rem;
 
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 50%;
 
     position: relative;
@@ -12,9 +12,6 @@
     box-sizing: border-box;
 
     background-color: var(--branco);
-
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 
     box-shadow: 10px 10px 30px var(--preto-transparente);
 
@@ -43,10 +40,6 @@
 
 .produto__titulo {
     margin-bottom: .5rem;
-}
-
-.produto__subtitulo {
-    margin-bottom: .75rem;
 }
 
 .produto__preco {
